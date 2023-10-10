@@ -158,7 +158,7 @@ impeach %>%
 
 7)  Come up with another breakdown of your choosing for how you'd like to examine this dataset. Say what you'll look at, and then put the code below to find the answer.
 
-**I want to see how many that said no had non-white populations above or below the national percentage. To do this, I'll filter for those who did not favor impeachment, group by the variable, and then summarize by count.**
+**I want to see how many that said no had non-white populations above or below the national percentage. To do this, I'll filter for those who did not favor impeachment, group by the variable, pct_nonwhite_compared_to_average and then summarize by count.**
 
 ```{r}
 
@@ -180,7 +180,7 @@ impeach %>%
 
 Use the mutate() function to create two new columns: one that extracts the year from date_announced, and a second that extracts the month.
 
-**I used the mutate command two create two new columns using the year and month functions on the data for date_announced.**
+**I used the mutate command to create two new columns using the year and month functions on the data for date_announced.**
 
 ```{r}
 
